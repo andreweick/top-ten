@@ -38,6 +38,12 @@ go build -o bin/top-ten ./cmd/top-ten
 ./bin/top-ten --help
 ```
 
+## Configuration
+
+### Environment Variables
+
+- `TOP10_AGE_PASSPHRASE` - Passphrase for decrypting the Top 10 lists data using age encryption. If you forget the passphrase, it's stored at: `op://Private/Top 10 lists age encryption/password`
+
 ## Development
 
 This project uses `just` for task automation. Common commands:
