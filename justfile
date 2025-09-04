@@ -12,11 +12,11 @@ fmt:
 
 # Build for current platform
 build:
-    go build -o bin/top10 ./cmd/top10
+    go build -o bin/top-ten ./cmd/top-ten
 
 # Run the application (depends on build)
 run *args: build
-    ./bin/top10 {{args}}
+    ./bin/top-ten {{args}}
 
 # Clean build artifacts
 clean:
@@ -67,4 +67,4 @@ run-with-password: build
         read -s password
         export AGE_ENCRYPTION_PASSWORD="$password"
     fi
-    ./bin/top10 random
+    ./bin/top-ten random

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"top10/internal/lists"
+	"top-ten/internal/lists"
 )
 
 func TestNewService(t *testing.T) {

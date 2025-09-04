@@ -11,12 +11,12 @@ import (
 	"github.com/muesli/termenv"
 	"github.com/urfave/cli/v2"
 
-	"top10/internal/lists"
+	"top-ten/internal/lists"
 )
 
 func main() {
 	app := &cli.App{
-		Name:  "top10",
+		Name:  "top-ten",
 		Usage: "Display random David Letterman Top 10 lists",
 		Commands: []*cli.Command{
 			{

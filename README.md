@@ -1,4 +1,4 @@
-# Top 10
+# Top Ten
 
 A command-line Go program that displays random David Letterman Top 10 lists from an embedded JSON collection.
 
@@ -15,13 +15,13 @@ A command-line Go program that displays random David Letterman Top 10 lists from
 
 ```bash
 # Clone or download the repository
-cd top10
+cd top-ten
 
 # Build the application
 just build
 
 # Or use Go directly
-go build -o bin/top10 ./cmd/top10
+go build -o bin/top-ten ./cmd/top-ten
 ```
 
 ## Usage
@@ -29,13 +29,13 @@ go build -o bin/top10 ./cmd/top10
 ### Display a random Top 10 list
 
 ```bash
-./bin/top10 random
+./bin/top-ten random
 ```
 
 ### Show help
 
 ```bash
-./bin/top10 --help
+./bin/top-ten --help
 ```
 
 ## Development

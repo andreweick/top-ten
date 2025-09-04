@@ -1,6 +1,6 @@
 package lists
 
-import "top10/data"
+import "top-ten/data"
 
 func GetEmbeddedData() []byte {
 	return data.TopTenData
