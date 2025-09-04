@@ -1,0 +1,5 @@
+# AGE encrypted files should be treated as binary data
+*.age binary
+
+# Ensure encrypted data files don't affect language detection
+data/*.age linguist-generated=true
